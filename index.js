@@ -24,7 +24,7 @@ client.connect(err => {
     usersCollection.insertOne(req.body)
         .then(result => {
             res.send(true)
-        })
+                })
     });
 
 
